@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+  cursor: pointer;
+}
+
+.hero-section {
+  width: 100%;
+  height: 100vh;
+  background: url(../WebDev/img/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.site-btn {
+  text-decoration: none;
+  display: inline-block;
+  min-width: 150px;
+  text-align: center;
+  border: none;
+  padding: 15px 10px;
+  font-weight: 600;
+  font-size: 16px;
+  position: relative;
+  color: #fff;
+  background: #d82a4e;
+  margin-left: 40px;
+}
+header {
+  padding-top: 60px;
+}
+.texts h1,
+p {
+  color: #fff;
+  text-align: center;
+}
+h1 {
+  font-size: 60px;
+  letter-spacing: 3px;
+}
+.form input {
+  height: 53px;
+  width: 36.4%;
+  padding: 0 30px;
+  float: left;
+  border: none;
+  font-size: 14px;
+  outline: none;
+  margin-top: 50px;
+}
+.form input:focus{
+  border-bottom: 3px solid rgb(250, 33, 33);
+}
+.text {
+  background-color: rgb(236, 255, 249);
+  padding: 15px;
+}
+.card {
+  border: none;
+}
+.text h5 {
+  color: red;
+  font-weight: 600;
+  font-family: cursive;
+}
+.text h5,
+span,
+h4 {
+  margin-top: 20px;
+}
+.card:hover > .text {
+  background-color: #d82a4e;
+  transition: 1s;
+}
+.card:hover > .text h5 {
+  color: #fff;
+}
+.syc {
+  background-color: rgb(189, 21, 21);
+  width: 100%;
+  height: 250px;
+}
+.divcha {
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+.divcha input {
+  height: 53px;
+  width: 36.4%;
+  padding: 0 30px;
+  border: none;
+  font-size: 14px;
+  outline: none;
+  background-color: rgb(221, 221, 221);
+  margin-top: 23.5px;
+}
+.divcha input:focus{
+  border-bottom: 3px solid rgb(250, 33, 33);
+}
+.divcha .container {
+  display: flex;
+  justify-content: space-between;
+}
+.divcha .buton {
+  width: 150px;
+  height: 53px;
+  border: none;
+  font-size: 15px;
+  margin-top: 23.5px;
+  line-height: 53px;
+}
+.container-fluid .row .col-lg-3:hover {
+  transform: translate(0, -30px);
+  transition: 0.5s;
+}
+.txt {
+  text-align: center;
+}
+.txt h6 {
+  font-family: cursive;
+}
+a {
+  margin-left: 20px;
+}
+.input input,
+button {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.input input:focus{
+  border-bottom: 3px solid rgb(250, 33, 33);
+}
+.input input {
+  height: 53px;
+  width: 80%;
+  padding: 0 30px;
+  border: none;
+  font-size: 14px;
+  outline: none;
+  margin-top: 50px;
+  background-color: rgb(221, 221, 221);
+  margin-left: 30px;
+}
+.row .col-lg-6 {
+  height: 670px;
+}
+@media screen and (max-width: 1000px) {
+  .hero-section {
+    height: 160vh;
+  }
+}
+@media screen and (max-width: 565px) {
+  .hero-section {
+    height: 180vh;
+  }
+}
+@media screen and (max-width: 400px) {
+  .hero-section {
+    height: 197vh;
+  }
+}
+@media screen and (max-width: 800px) {
+  .form input {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .form input {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .divcha {
+    height: 200px;
+  }
+  .syc {
+    height: 350px;
+  }
+  .divcha .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .divcha .container input {
+    width: 275px;
+  }
+  .divcha .buton {
+    margin-left: 65%;
+  }
+}
+.col-lg-6 img{
+width: 100%;
+height: 500px;
+margin-top: 85px;
+}
+@media screen and (max-width: 780px) {
+  .divcha {
+    height: 250px;
+  }
+  .syc {
+    height: 400px;
+  }
+  .divcha .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .divcha .container input {
+    width: 100%;
+  }
+  .divcha .buton {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 770px) {
+  .divcha {
+    height: 300px;
+  }
+  .syc {
+    height: 530px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .divcha {
+    height: 300px;
+  }
+  .syc {
+    height: 590px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .row .col-lg-6 {
+    height: 770px;
+  }
+}
+@media screen and (max-width: 1350px){
+  .roww{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
